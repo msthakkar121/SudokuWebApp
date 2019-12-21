@@ -1,0 +1,85 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    padding-left: 10px;
+    font-size: 1.1em;
+    background-color: black;
+    color: white;
+    text-align: -webkit-center;
+}
+
+div.SudoGrid {
+    display:inline-block;
+}
+
+    div.SudoGrid table {
+        border-collapse: collapse;
+        margin: 50px 50px 50px 50px;
+    }
+
+        div.SudoGrid table td {
+            border: 1px solid gray;
+            margin: 0;
+            padding: 0;
+            width: 50px;
+            height: 50px;
+        }
+
+            div.SudoGrid table td:nth-child(3n+3) {
+                border-right: 5px solid black;
+            }
+
+        div.SudoGrid table tr:nth-child(3n+3) {
+            border-bottom: 5px solid black;
+        }
+
+        div.SudoGrid table tr:first-child {
+            border-top: 5px solid black;
+        }
+
+        div.SudoGrid table tr td:first-child {
+            border-left: 5px solid black;
+        }
+
+#SudoForm{
+    display:inline-block;
+}
+
+.sudoSquares {
+    width: 50px;
+    height: 50px;
+    font-size: 20pt;
+    text-align: center;
+}
+
+.noDrop {
+    cursor: no-drop;
+}
+
+p {
+    display: block; 
+    text-align: right; 
+    margin-right: 15px; 
+    margin-bottom: 15px;
+}
+
+.btn {
+    padding: 2px 6px;
+    font-weight: bold;
+    display:block;
+}
+
+p {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: white;
+        text-decoration: none;
+    }
