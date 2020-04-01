@@ -20,7 +20,7 @@ Given a partially filled 9x9 2D array, the goal is to assign digits (from 1 to 9
 
 * In the input box on the top of the page, enter a string with 91 digits which will make up the puzzle. Use '0' for blank cells.
 * Click on the 'Populate' button to generate the puzzle. If you mis-entered the type or length of the input, it should display an error message asking you to re-enter the input.
-* Once the puzzle is generated (the grid on the left side of the page), you can click on 'Solve It' button to generate the solution for the puzzle. If the solutio does not exist, an error message might ask you to change your input, else the grid on the right side of the page will be populated with the solved puzzle. 
+* Once the puzzle is generated (the grid on the left side of the page), you can click on 'Solve It' button to generate the solution for the puzzle. If the solution does not exist, an error message might ask you to change your input, else the grid on the right side of the page will be populated with the solved puzzle. 
 * At the bottom-right corner of the screen, you shall also see the time taken by the algorithm to solve the puzzle. 
 
 ### Unit Tests
